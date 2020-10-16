@@ -26,22 +26,22 @@
                         <a class="nav-link active">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">New Arrivals</a>
+                        <a href="/category" class="nav-link">New Arrivals</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">Tops</a>
+                        <a href="/category" class="nav-link">Tops</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">Bottoms</a>
+                        <a href="/category" class="nav-link">Bottoms</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">Footwear</a>
+                        <a href="/category" class="nav-link">Footwear</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">Accessories</a>
+                        <a href="/category" class="nav-link">Accessories</a>
                     </li>
                     <li class="nav-item">
-                        <a :href="'/some-url/'+category.id" class="nav-link">All Women's</a>
+                        <a href="/category" class="nav-link">All Women's</a>
                     </li>
                 </ul>
             </div>
@@ -80,35 +80,35 @@ export default {
                     title :'Ua sportstyle',
                     description : 'Wired different. Ready to take over.',
                     img : '/images/category-shop/shop-two-column1.jpg',
-                    link : '/CURRY+5'
+                    link : '/listing'
                 },
                 {
                     title :'Unstoppable collection',
                     description : 'Wired different. Ready to take over.',
                     img : '/images/category-shop/shop-two-column2.jpg',
-                    link : '/CURRY+5'
+                    link : '/listing'
                 },
             ],
             threeColumnData:[
                 {
                     img : '/images/category-shop/shop-three-column-1.jpg',
-                    link : '/CURRY+5',
+                    link : '/listing',
                     linkText: 'Shop speedpocket'
                 },
                 {
                     img : '/images/category-shop/shop-three-column-2.jpg',
-                    link : '/CURRY+5',
+                    link : '/listing',
                     linkText: 'Shop UA HOVER'
                 },
                 {
                     img : '/images/category-shop/shop-three-column-3.jpg',
-                    link : '/CURRY+5',
+                    link : '/listing',
                     linkText: 'SHOP ATHLETE'
                 },
             ],
             arrivals:[
                 {
-                    link :'/shopnow',
+                    link :'/listing',
                     text : 'Shop Now'
                 },
             ],
@@ -124,7 +124,7 @@ export default {
                             description: 'Ultra-light performance cotton feels laid back, not lazy',
                             color: 'black', // white , black
                         },
-                        link : '/shop/something'
+                        link : '/listing'
                     },
                     {
                         image: '/images/category-shop/category-slider-2.jpeg',
@@ -134,7 +134,7 @@ export default {
                             description: 'Ultra-light performance cotton feels laid back, not lazy',
                             color: 'black', // white , black
                         },
-                        link : '/shop/something'
+                        link : '/listing'
                     },
                     {
                         image: '/images/category-shop/category-slider-3.jpeg',
@@ -144,7 +144,7 @@ export default {
                             description: 'Ultra-light performance cotton feels laid back, not lazy',
                             color: 'white', // white , black
                         },
-                        link : '/shop/something'
+                        link : '/listing'
                     },
                 ]
             },

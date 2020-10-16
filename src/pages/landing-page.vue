@@ -29,33 +29,33 @@ export default {
         return {
             twoColumnData:[
                 {
-                    title :'CURRY 5',
+                    title :"Men's UA Breeze",
                     description : 'Wired different. Ready to take over.',
-                    img : '/images/collection-box.jpeg',
-                    link : '/CURRY+5'
+                    img : '/images/landing/section2/FW20_GLF_PlayoffPolo_Site_8_5_M.jpg',
+                    link : '/category'
                 },
                 {
-                    title :'CURRY 5',
+                    title :"Men's Polo Shirts",
                     description : 'Wired different. Ready to take over.',
-                    img : '/images/collection-box.jpeg',
-                    link : '/CURRY+5'
+                    img : '/images/landing/section2/FW20_Run_Breeze_Site_8_5_M.jpg',
+                    link : '/category'
                 },
             ],
             threeColumnsData:[
                 {
-                    title :'This is some random title',
-                    img : '/images/collection-box.jpeg',
-                    link : '/CURRY+5'
+                    title :"Women's Fly Fast Bottomss",
+                    img : '/images/landing/three-column-banner/FW20_Run_FlyFast_Site_8_5.jpg',
+                    link : '/listing'
                 },
                 {
-                    title :'This is some random title',
-                    img : '/images/collection-box.jpeg',
-                    link : '/CURRY+5'
+                    title :"Women's Armour® Crossback Bras",
+                    img : '/images/landing/three-column-banner/FW20_WMN_Seasonal_CrossbackMid_Site_8_5.jpg',
+                    link : '/listing'
                 },
                 {
-                    title :'This is some random title',
-                    img : '/images/collection-box.jpeg',
-                    link : '/CURRY+5'
+                    title :"Men's Polo Shirts",
+                    img : '/images/landing/section2/FW20_Run_Breeze_Site_8_5_M.jpg',
+                    link : '/listing'
                 },
             ],
             arrivals:[
